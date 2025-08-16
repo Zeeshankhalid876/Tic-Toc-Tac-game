@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #d7c3e7;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    padding-top: 40px;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 16px;
+    border: none;
+    box-shadow: 0 0 9rem rgba(0,0,0,0.3);
+    font-size: 100px;
+    color: #1231cd;
+    background-color: rgb(37, 168, 168);
+}
+.resetbtn{
+    background-color: #030e09;
+    padding: 12px;
+    margin: 20px;
+    font-size:20px;
+    color: aliceblue;
+    border: none;
+    border-radius: 12px;
+}
+#newbtn{
+    background-color: #030e09;
+    padding: 10px;
+    margin: 20px;
+    font-size:20px;
+    color: aliceblue;
+    border: none;
+    border-radius: 12px;
+}
+.msg-container{
+    height: 94vmin;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+#checkwinning{
+    color: #e80e0e;
+    font-size: 30px;
+padding-bottom: 20px;
+}
+.hiding{
+    display: none;
+}
